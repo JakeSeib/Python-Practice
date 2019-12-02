@@ -1,7 +1,8 @@
+# Originally was written to return the max length of substring without repeating characters; I now realize that I could
+# have made a simple modification to that and returned the substring itself using len as the key for max. This would be
+# much preferable to this version, had I realized originally that max could take len as a key.
+
 def find_non_repeating(line, current_substring, substring_list, substring_num):
-    """
-        the length of the longest substring without repeating chars
-    """
     if line[0] in current_substring:
         if len(line)>1:
             substring_list.append((current_substring, len(current_substring), substring_num))
