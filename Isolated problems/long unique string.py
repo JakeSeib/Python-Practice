@@ -1,3 +1,5 @@
+# Find the longest substring with all unique letters. Ties broken by which substring occurred first.
+
 # Originally was written to return the max length of substring without repeating characters; I now realize that I could
 # have made a simple modification to that and returned the substring itself using len as the key for max. This would be
 # much preferable to this version, had I realized originally that max could take len as a key.

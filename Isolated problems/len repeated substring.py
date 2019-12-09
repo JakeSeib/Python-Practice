@@ -1,3 +1,5 @@
+# Find length of the longest substring that repeats more than once.
+
 import re
 
 def double_substring_helper(line, length):
@@ -21,4 +23,3 @@ if __name__ == '__main__':
     assert double_substring('aaaa') == 2, "First"
     assert double_substring('abc') == 0, "Second"
     assert double_substring('aghtfghkofgh') == 3, "Third"
-    print('"Run" is good. How is "Check"?')
