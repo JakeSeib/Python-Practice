@@ -1,3 +1,5 @@
+# Find the length of the longest substring that consists of the same letter.
+
 import re
 
 def long_repeat(line: str) -> int:
@@ -20,4 +22,3 @@ if __name__ == '__main__':
     assert long_repeat('ddvvrwwwrggg') == 3, "Second"
     assert long_repeat('abababaab') == 2, "Third"
     assert long_repeat('') == 0, "Empty"
-    print('"Run" is good. How is "Check"?')
