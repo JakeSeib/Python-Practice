@@ -1,3 +1,5 @@
+# Return the maximum number of monster names from MONSTERS that can be created from characters in the supplied 'spell'
+
 MONSTERS = '''
 skeleton
 ghost
